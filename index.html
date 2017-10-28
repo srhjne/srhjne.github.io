@@ -2,7 +2,9 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
+<link rel="stylesheet" href="styles.css">
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -15,10 +17,64 @@
 <body>
 <div class="container-fluid">
 <h1> Sarah Edwards </h1>
-<div>
-<img src="profile_pic.png" >
+<div class="row">
+<div class="col-xs-4">
+<div class="img-div">
+<img id="profile-pic" src="profile_pic.png" >
 </div>
+</div>
+<div class="col-xs-8">
+<p>
+I am a recent graduate of Hackbright Academy's full stack web development immersive course. 
+</p>
+<p>
+My background is in academic research in Solar Physics. I studied for my PhD at the University of St Andrews in the Solar and Magnetospheric Theory Group. I then undertook Postdoctoral Research at Durham University. <a href="#publications">Take a look at my work</a>
+</p>
+<p>
 
+I have also worked in data analysis in the risk department at one of the UK's largest banks.
+</p>
+
+
+</div>
+</div>
+<div class="row">
+<h1> Projects </h1>
+</div>
+<div class="row project">
+<h2> Natural 20 </h2>
+<div class="col-xs-6">
+<div>
+<img class="project-image" src="user_page_image.png">
+</div>
+</div>
+<div class="col-xs-6">
+Natural 20 is a fitness tracking app that is themed around Dungeons and Dragons. It allows users to set goals for themselves and track progress against those goals using data from the Google fit API. There is also a social component to the app which allows users to become friends with one another and also form teams to compete and share in each others successes and losses.
+
+<br>
+<br>
+Tech Stack: Python, Flask, Javascript, jquery, AJAX, React 16, PostgreSQL, SQLAlchemy, bcrypt
+
+<br>
+Github link: <a href="https://github.com/srhjne/Natural20">github.com/srhjne/Natural20</a>
+</div>
+</div>
+<div class="row">
+	<h1>Research</h1>
+	<div id="publications"> 
+		<h2> Publications </h2>
+		<ul>
+			<li> Edwards, S. J.; Yeates, A. R.; Bocquet, F.-X.; Mackay, D. H., <i>Influence of Non-Potential Coronal Magnetic Topology on Solar-Wind Models </i>,<a href="https://link.springer.com/article/10.1007%2Fs11207-015-0795-8"> Solar Physics, Volume 290, Issue 10, pp.2791-2808 </a></li>
+			<li> Edwards, S. J.; Parnell, C. E.; Harra, L. K.; Culhane, J. L.; Brooks, D. H. <i>A Comparison of Global Magnetic Field Skeletons and Active-Region Upflows  </i> <a href="https://link.springer.com/article/10.1007%2Fs11207-015-0807-8">Solar Physics, Volume 291, Issue 1, pp.117-142</a></li>
+			<li> Edwards, S. J.; Parnell, C. E. <i>Null Point Distribution in Global Coronal Potential Field Extrapolations  </i><a href="https://link.springer.com/article/10.1007%2Fs11207-015-0727-7">Solar Physics, Volume 290, Issue 7, pp.2055-2076 </a> </li>
+			<li> Platten, S. J.; Parnell, C. E.; Haynes, A. L.; Priest, E. R.; Mackay, D. H. <i>The solar cycle variation of topological structures in the global solar corona </i><a href="https://www.aanda.org/articles/aa/abs/2014/05/aa23048-13/aa23048-13.html">Astronomy & Astrophysics, Volume 565, id.A44, 14 pp. </a> (published in my maiden name, Platten)</li>
+		</ul>
+	</div>
+	<div class="thesis">
+		<h2> Thesis: On Global Coronal Magnetic Topology </h2>
+	</div>
+
+</div>
 </div>
 </body>
 
