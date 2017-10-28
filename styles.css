@@ -1,9 +1,14 @@
-#profile-pic{
+#profile-pic {
 	border: solid 3px #565656;
 	border-radius: 50%;
 	width: 100%;
 }
 
+#thesis-image {
+	width: 80%;
+	border: solid 3px #565656;
+	border-radius: 50%;
+}
 
 .project-image {
 	width:100%;
@@ -19,17 +24,19 @@
 h1 {
 	font-weight: bold;
 	color: #84A98C;
+	margin: 10px;
 }
 
 h2 {
 	font-weight: bold;
+	margin: 10px;
 }
 
 li {
 	padding-bottom: 10px;
 }
-body{
 
+body {
 	font-family: 'Inconsolata', monospace;
 	background-color: #EFF1ED;
 	color: #565656;
